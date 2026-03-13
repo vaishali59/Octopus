@@ -140,7 +140,7 @@ export default function ModelCatalogPage() {
       {/* Header */}
       <header className="border-b border-chat-border bg-chat-sidebar">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <h1 className="text-xl font-bold">LLM Chat Bridge</h1>
+          <h1 className="text-xl font-bold">Octopus</h1>
           <div className="flex items-center gap-4">
             <span className="text-sm text-chat-muted">
               Welcome, <span className="text-chat-accent">{user?.username}</span>

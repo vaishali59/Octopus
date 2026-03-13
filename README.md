@@ -1,4 +1,4 @@
-# LLM Chat Bridge
+# Octopus
 
 A unified chat interface for interacting with AI models from multiple platforms (HuggingFace, NVIDIA, Dell Enterprise Hub, custom endpoints) with model management, health monitoring, and conversation history.
 

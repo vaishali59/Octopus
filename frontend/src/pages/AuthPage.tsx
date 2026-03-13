@@ -31,10 +31,10 @@ export default function AuthPage() {
     <div className="flex items-center justify-center min-h-screen bg-chat-bg">
       <div className="w-full max-w-md p-8 bg-chat-sidebar border border-chat-border rounded-xl">
         <h1 className="text-2xl font-bold text-center text-chat-text mb-2">
-          LLM Chat Bridge
+          Octopus
         </h1>
         <p className="text-sm text-chat-muted text-center mb-6">
-          Multi-provider LLM testing platform
+          Multi-provider AI model platform
         </p>
 
         <div className="flex border border-chat-border rounded-lg overflow-hidden mb-6">
