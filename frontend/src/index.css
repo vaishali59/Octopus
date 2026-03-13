@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-chat-bg: #0f1117;
+  --color-chat-sidebar: #161b22;
+  --color-chat-card: #1c2128;
+  --color-chat-border: #30363d;
+  --color-chat-accent: #2f81f7;
+  --color-chat-accent-hover: #1f6feb;
+  --color-chat-text: #e6edf3;
+  --color-chat-muted: #8b949e;
+  --color-chat-user-bubble: #1f3a5f;
+  --color-chat-asst-bubble: #1c2128;
+  --color-chat-error: #f85149;
+  --color-chat-success: #56d364;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

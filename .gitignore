@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+
+# User data directories (tracked during development)
+user_documents/
+vector_stores/
+
+# Installation artifacts (tracked during development)
+=*
+*.egg-info/
+*.dist-info/
+
+# Environment (tracked during development)
+venv-*/
+.env
+
+# Security and session files
+cookies.txt
+.fernet_key
+
+# Database backup files
+*.backup
+
+# Application logs
+*.log
+
+# Node.js (frontend)
+node_modules/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database files
+chat_app.db
