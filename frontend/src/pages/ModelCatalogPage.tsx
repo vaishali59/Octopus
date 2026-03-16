@@ -255,11 +255,11 @@ export default function ModelCatalogPage() {
                 <p className="text-sm">Add your first model using the form on the left</p>
               </div>
             ) : (
-              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 items-start">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 items-stretch">
                 {models.map((model) => (
                   <div
                     key={model.id}
-                    className="bg-chat-sidebar border border-chat-border rounded-xl p-5 hover:border-chat-accent transition cursor-pointer group"
+                    className="bg-chat-sidebar border border-chat-border rounded-xl p-5 hover:border-chat-accent transition cursor-pointer group h-full flex flex-col"
                     onClick={() => editingId !== model.id && navigate(`/chat/${model.id}`)}
                   >
                     {editingId === model.id ? (
