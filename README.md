@@ -55,8 +55,8 @@ Frontend (React + TypeScript) → Backend (Flask + Python) → Database (SQLite)
 
 ```bash
 # Clone & Backend
-git clone <repository-url>
-cd chat_app
+git clone git@eos2git.cec.lab.emc.com:Vaishali-Gupta/Octopus.git
+cd Octopus
 python -m venv <your-venv>
 source <your-venv>/bin/activate  # Windows: venv-openenv\Scripts\activate
 pip install -r requirements.txt
