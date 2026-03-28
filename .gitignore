@@ -28,7 +28,6 @@ cookies.txt
 # Node.js (frontend)
 node_modules/
 package-lock.json
-frontend/dist/
 
 # OS files
 .DS_Store
