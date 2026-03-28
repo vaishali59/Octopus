@@ -49,25 +49,29 @@ Frontend (React + TypeScript) → Backend (Flask + Python) → Database (SQLite)
 
 ### Prerequisites
 - Python 3.10+
-- Node.js 16+
 
 ### Setup
 
 ```bash
-# Clone & Backend
+# Clone and Run
 git clone git@eos2git.cec.lab.emc.com:Vaishali-Gupta/Octopus.git
 cd Octopus
 python -m venv <your-venv>
 source <your-venv>/bin/activate  # Windows: venv-openenv\Scripts\activate
 pip install -r requirements.txt
 
-# Frontend (new terminal)
+# Start the application
+python app.py  # http://localhost:5000
+```
+
+**That's it!** The frontend is pre-built and ready to run.
+
+### Development (Optional)
+If you need to modify the frontend:
+```bash
 cd frontend
 npm install
-npm run build
-
-# Run
-python app.py  # http://localhost:5000
+npm run build  # Rebuilds frontend/dist/
 ```
 
 ### Optional Configuration
@@ -85,10 +89,16 @@ export FLASK_ENV="development"
 ## 📁 Project Structure
 
 ```
-chat_app/
+Octopus/
 ├── frontend/                    # React TypeScript frontend
-│   ├── src/
-│   │   ├── pages/              # Page components
+│   ├── dist/                   # Pre-built production files
+│   │   ├── index.html
+│   │   ├── assets/
+│   │   │   ├── index-*.js
+│   │   │   └── index-*.css
+│   │   └── vite.svg
+│   ├── src/                    # Source files (for development)
+│   │   ├── pages/
 │   │   │   ├── ChatPage.tsx
 │   │   │   ├── LoginPage.tsx
 │   │   │   └── ModelCatalogPage.tsx
@@ -100,12 +110,12 @@ chat_app/
 │   ├── vite.config.ts
 │   └── tailwind.config.js
 │
-├── app.py                       # Flask application
+
+├── app.py                       # Flask application (serves frontend)
 ├── health_check.py              # Model health check service
 ├── config.py                    # Configuration settings
-├── schema.sql                   # Database schema
 ├── requirements.txt             # Python dependencies
-├── chat_app.db                  # SQLite database
+├── chat_app.db                  # SQLite database (auto-created)
 ├── .fernet_key                  # Encryption key (auto-generated)
 ├── user_documents/              # Uploaded documents storage
 ├── vector_stores/               # FAISS vector stores
