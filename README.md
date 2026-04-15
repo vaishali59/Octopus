@@ -127,7 +127,7 @@ Octopus/
 ## 🚀 Getting Started
 
 1. **Register** at `http://localhost:5000`
-2. **Add Model** - Go to Models page, fill in details, add API key
+2. **Add Model** - On index page,just fill in the model details and click add model button
 3. **Start Chatting** - Click model to open chat, type message
 4. **Upload Documents** (optional) - Click "Upload Document" in chat for RAG
 
