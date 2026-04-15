@@ -57,7 +57,7 @@ Frontend (React + TypeScript) → Backend (Flask + Python) → Database (SQLite)
 git clone https://github.com/vaishali59/Octopus.git
 cd Octopus
 python -m venv <your-venv>
-source <your-venv>/bin/activate  # Windows: venv-openenv\Scripts\activate
+source <your-venv>/bin/activate  # Windows: <your-venv>\Scripts\Activate.ps1
 pip install -r requirements.txt
 
 # Start the application
