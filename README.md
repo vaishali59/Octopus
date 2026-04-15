@@ -49,6 +49,7 @@ Frontend (React + TypeScript) → Backend (Flask + Python) → Database (SQLite)
 
 ### Prerequisites
 - Python 3.10+
+- Git
 
 ### Setup
 
