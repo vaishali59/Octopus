@@ -54,7 +54,7 @@ Frontend (React + TypeScript) → Backend (Flask + Python) → Database (SQLite)
 
 ```bash
 # Clone and Run
-git clone git@eos2git.cec.lab.emc.com:Vaishali-Gupta/Octopus.git
+git clone https://github.com/vaishali59/Octopus.git
 cd Octopus
 python -m venv <your-venv>
 source <your-venv>/bin/activate  # Windows: venv-openenv\Scripts\activate
