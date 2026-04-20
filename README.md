@@ -172,9 +172,10 @@ Octopus/
 
 ---
 
-## 🤝 Support
+## Contributors
 
-For issues or questions, please refer to the project documentation or contact the development team.
+- **Vaishali Gupta** - Project Lead & Developer
+- **Cascade (AI Assistant)** - Code Development & Documentation Support
 
 ---
 
